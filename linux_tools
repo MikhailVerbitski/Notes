@@ -11,6 +11,9 @@ dpkg --list
 scp (что) (куда)
 
 pry -I. -r src/db/sequel_init.rb
+a = Models::Alkemics.first
+a.data
+Yaml.load(a.data)
 
 wget    ?
 tr      ?
