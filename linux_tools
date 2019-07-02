@@ -10,6 +10,7 @@ fg        вернуть из background
 dpkg --list
 scp (что) (куда)
 
+pry -I. -r src/db/sequel_init.rb
 
 wget    ?
 tr      ?
