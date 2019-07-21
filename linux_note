@@ -2,3 +2,15 @@ ubuntu 19.04
 
 problem install ruby with rvm
 rvm reinstall ruby-2.2.0 --autolibs=disable --with-openssl-dir=/usr/local/opt/openssl
+
+---------------------------------------------------------------------------------------
+Set Login Screen Background
+переместить изображение в /usr/share/backgrounds
+изменить: /etc/alternatives/gdm3.css
+#lockDialogGroup {
+  background: #2c001e url(file:///usr/share/backgrounds/[image_name]);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+---------------------------------------------------------------------------------------
