@@ -18,3 +18,6 @@ Set Login Screen Background
 sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 ---------------------------------------------------------------------------------------
+Терминал по умолчанию
+sudo update-alternatives --config x-terminal-emulator
+---------------------------------------------------------------------------------------
