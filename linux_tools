@@ -2,6 +2,8 @@
 cat file file1 | grep -n 'cat.*'
 dpkg --list | grep -n code | cat -n > test.txt
 
+require 'pry'
+binding.pry - point
 
 touch {name}        создать файл
 xdg-open {file}     открывает файл программой по умолчанию для расширения указанного файла
