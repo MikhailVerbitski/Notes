@@ -4,6 +4,7 @@ dpkg --list | grep -n code | cat -n > test.txt
 
 require 'pry'
 binding.pry - point
+ctrl+b снова отобразить текущее положение
 
 touch {name}        создать файл
 xdg-open {file}     открывает файл программой по умолчанию для расширения указанного файла
