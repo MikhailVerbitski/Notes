@@ -21,3 +21,31 @@ sudo update-initramfs -u
 Терминал по умолчанию
 sudo update-alternatives --config x-terminal-emulator
 ---------------------------------------------------------------------------------------
+настройки терминатора
+~/.config/terminator/config
+sudo code ~/.config/terminator/config --user-data-dir
+
+[global_config]
+[keybindings]
+  copy = <Primary>c
+  paste = <Primary>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2e3336"
+    background_darkness = 0.91
+    background_image = None
+    background_type = transparent
+    custom_command = " bash"
+    foreground_color = "#bcbdb8"
+    login_shell = True
+    scrollback_infinite = True
+    use_custom_command = True
