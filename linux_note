@@ -49,3 +49,8 @@ sudo code ~/.config/terminator/config --user-data-dir
     login_shell = True
     scrollback_infinite = True
     use_custom_command = True
+
+
+
+Change login screen on lightdm
+sudo dpkg-reconfigure lightdm
