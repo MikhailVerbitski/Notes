@@ -18,6 +18,10 @@ Set Login Screen Background
 sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 ---------------------------------------------------------------------------------------
+Как убрать тему загрузки и оставить строки включеня
+/etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" => GRUB_CMDLINE_LINUX_DEFAULT=""
+---------------------------------------------------------------------------------------
 Терминал по умолчанию
 sudo update-alternatives --config x-terminal-emulator
 ---------------------------------------------------------------------------------------
