@@ -55,12 +55,9 @@ sudo code ~/.config/terminator/config --user-data-dir
 Change login screen on lightdm
 sudo dpkg-reconfigure lightdm
 
-В арче уменьшил таймауты в /etc/systemd/system.conf
-
+Уменьшить таймауты на выключение и включение
+/etc/systemd/system.conf
 DefaultTimeoutStartSec= 10s
-
 DefaultTimeoutStopSec= 10s
-
 Для федоры в /etc/systemd/logind.conf прописал
-
 KillUserProcesses= yes
