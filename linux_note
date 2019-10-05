@@ -21,6 +21,9 @@ sudo update-initramfs -u
 Как убрать тему загрузки и оставить строки включеня
 /etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" => GRUB_CMDLINE_LINUX_DEFAULT=""
+sudo update-grub2
+
+http://ubuntu.fliplinux.com/1189.html
 ---------------------------------------------------------------------------------------
 Терминал по умолчанию
 sudo update-alternatives --config x-terminal-emulator
