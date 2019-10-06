@@ -56,7 +56,11 @@ sudo code ~/.config/terminator/config --user-data-dir
     login_shell = True
     scrollback_infinite = True
     use_custom_command = True
-
+---------------------------------------------------------------------------------------
+Автомонтирование дисков
+/etc/fstab
+UUID=FE36DC5B36DC168D   /media/mikhail/0a2b2b3720554446    udf defaults,uid=1000    0  0
+https://losst.ru/avtomaticheskoe-montirovanie-fstab-i-systemd
 
 
 Change login screen on lightdm
