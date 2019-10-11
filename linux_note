@@ -65,7 +65,7 @@ sudo code ~/.config/terminator/config --user-data-dir
 sudo fdisk -l
 
 /etc/fstab
-# UUID=FE36DC5B36DC168D   /media/mikhail/0a2b2b3720554446    udf defaults,uid=1000    0  0
+UUID=181222E44D039197   /media/mikhail/1tb    ntfs-3g defaults    0  0
 https://losst.ru/avtomaticheskoe-montirovanie-fstab-i-systemd
 ---------------------------------------------------------------------------------------
 Установка из исходного кода
