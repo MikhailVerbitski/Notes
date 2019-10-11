@@ -76,6 +76,8 @@ aclocal
 autoheader
 automake --gnu --add-missing --copy --foreign
 autoconf -f -Wall
+
+https://help.ubuntu.ru/wiki/programs_installation
 ---------------------------------------------------------------------------------------
 
 
