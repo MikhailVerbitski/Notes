@@ -65,6 +65,18 @@ sudo fdisk -l
 # UUID=FE36DC5B36DC168D   /media/mikhail/0a2b2b3720554446    udf defaults,uid=1000    0  0
 https://losst.ru/avtomaticheskoe-montirovanie-fstab-i-systemd
 ---------------------------------------------------------------------------------------
+Установка из исходного кода
+
+sudo apt-get install libgimp2.0-dev
+
+./bootstrap
+./autogen.sh
+
+aclocal
+autoheader
+automake --gnu --add-missing --copy --foreign
+autoconf -f -Wall
+---------------------------------------------------------------------------------------
 
 
 Change login screen on lightdm
