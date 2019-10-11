@@ -68,6 +68,22 @@ sudo fdisk -l
 UUID=181222E44D039197   /media/mikhail/1tb    ntfs-3g defaults    0  0
 https://losst.ru/avtomaticheskoe-montirovanie-fstab-i-systemd
 ---------------------------------------------------------------------------------------
+Ускорение системы
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet rootfstype=ext4 libahci.ignore_sss=1 raid=noautodetect selinux=0 plymouth.enable=0 lpg=9578408"
+dmesg | grep 'lpj='
+
+systemd-analyze
+systemd-analyze blame
+
+systemctl disable [служба]
+  cups-browsed.service    принтер
+  avahi-daemon-service    обнаружение компьютеров в домене local
+  geoclue.service         геолокация приложений
+  ModemManager.service    2g 3g модемы
+  
+sudo apt install preload
+---------------------------------------------------------------------------------------
 Установка из исходного кода
 
 sudo apt-get install libgimp2.0-dev
