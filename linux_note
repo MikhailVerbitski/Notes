@@ -88,6 +88,8 @@ sudo apt install preload
 
 sudo apt-get install libgimp2.0-dev
 
+tar -xvf <some_app_name>.tar.gz
+
 ./bootstrap
 ./autogen.sh
 
