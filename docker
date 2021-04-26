@@ -1,0 +1,2 @@
+jenkins/jenkins:lts
+docker container run -p 2376:8080 -v /home/docker/jenkins/certs/client:/certs/client -v /home/docker/jenkins/var/jenkins_home:/var/jenkins_home --name jenkins-local jenkins/jenkins:lts
