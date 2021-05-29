@@ -6,3 +6,6 @@ Second display touch:
   xinput --map-to-output 13 DisplayPort-0                   // hybrid driver
   xinput --map-to-output 13 DP-1                            // ...
   // input to ~/.xinitrc
+
+Second display brightness
+  xrandr --output DisplayPort-0 --brightness 1
