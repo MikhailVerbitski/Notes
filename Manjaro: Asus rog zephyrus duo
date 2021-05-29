@@ -1,6 +1,8 @@
 Second display touch:
   https://wiki.archlinux.org/title/touchscreen
   sudo pacman -S xorg-xinput
-  xrandr                          // display list
+  xrandr                                                    // display list
   // set id=13 (ELAN9009:00 04F3:2A5A) to DisplayPort-0
-  xinput --map-to-output 13 DisplayPort-0
+  xinput --map-to-output 13 DisplayPort-0                   // hybrid driver
+  xinput --map-to-output 13 DP-1                            // ...
+  // input to ~/.xinitrc
